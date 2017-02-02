@@ -1,0 +1,23 @@
+schedule = {
+  1:"Bradford Prep",
+  2:"North Meck",
+  3:"Pine Lake",
+  4:"Thomas Jefferson",
+  5:"Alleghany",
+  6:"Cherryville",
+  7:"Bessemer City",
+  8:"Carolina International",
+  9:"Lincoln Charter",
+  10:"West Montgomery"
+}
+
+
+def percentfinder():
+  gameswon = int(input("How many games have you won? "))
+  gameslost = int(input("How many games have you lost? "))
+  gamesplayed = gameswon + gameslost
+  winpercent = gameswon / gamesplayed * 100
+  print("Your win percentage is " + str(winpercent) + "%")
+  print(winpercent)
+  #DOES NOT WORK:
+  #print("Your win percentage is " + winpercent)
