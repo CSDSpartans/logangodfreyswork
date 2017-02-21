@@ -16,4 +16,4 @@ day=int(birthday[6:8])
 print("Your birthday is "+str(year)+"/"+str(month)+"/"+str(day)+"?")
 #Maybe use an until loop here
 if input("(Y/n)") in ("Y","y","",None):
-print(datetime(year,month,day)+timedelta(days=22000))
+    print(datetime(year,month,day)+timedelta(days=22000))
