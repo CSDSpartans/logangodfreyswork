@@ -21,3 +21,4 @@ def percentfinder():
   print(winpercent)
   #DOES NOT WORK:
   #print("Your win percentage is " + winpercent)
+percentfinder()  
