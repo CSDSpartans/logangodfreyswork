@@ -6,13 +6,13 @@ from datetime import timedelta
 print('22000 days from today is:')
 print(datetime.now() + timedelta(days=22000))
 
-birthday = input("What is your birthday? YYYYMMDD \n")
+birthday = input("What is your birthday? YYYY/MM/DD \n")
 
 #print('You will be 22000 days old on:')
 #print (birthday + timedelta(days=22000))
 year=int(birthday[0:4])
-month=int(birthday[4:6])
-day=int(birthday[6:8])
+month=int(birthday[5:7])
+day=int(birthday[8:10])
 print("Your birthday is "+str(year)+"/"+str(month)+"/"+str(day)+"?")
 #Maybe use an until loop here
 if input("(Y/n)") in ("Y","y","",None):
