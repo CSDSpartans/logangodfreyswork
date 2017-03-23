@@ -1,4 +1,4 @@
-me_of_mydocument = 'tuesdayafternoon.txt'
+name_of_mydocument = 'tuesdayafternoon.txt'
 file_input = open(name_of_mydocument, 'r')     
 
 
